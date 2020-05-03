@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "每日一测",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "load-line": "/components/load-line/load-line"
+  }
+}

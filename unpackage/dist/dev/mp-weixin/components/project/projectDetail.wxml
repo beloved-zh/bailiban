@@ -1,0 +1,1 @@
+<view class="detail"><block wx:for="{{detail}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view data-event-opts="{{[['tap',[['goDetailInfo',['$0'],[[['detail','id',item.id,'id']]]]]]]}}" class="row" bindtap="__e"><text class="iconfont icon-yousanjiaoxing"></text><text class="name">{{item.name}}</text></view></block></view>

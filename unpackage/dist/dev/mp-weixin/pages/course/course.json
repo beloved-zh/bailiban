@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "qs-tabs": "/components/QS-tabs/QS-tabs",
+    "course-info": "/components/course/courseInfo",
+    "chapters-list": "/components/course/chaptersList",
+    "recommend": "/components/course/recommend"
+  }
+}

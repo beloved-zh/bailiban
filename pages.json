@@ -1,0 +1,102 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/sort/sort",
+            "style" : {
+				"navigationBarTitleText": "百里半",
+				"onReachBottomDistance":100
+			}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {
+				"navigationBarTitleText": "个人主页",
+				"onReachBottomDistance":100
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/homework/homework",
+            "style" : {
+				"navigationBarTitleText": "我的作业",
+				//页面触底距离
+				"onReachBottomDistance":100
+			}
+        }
+        ,{
+            "path" : "pages/homework/homeworkItem",
+            "style" : {
+				"navigationBarTitleText": "上机作业"
+			}
+        }
+        ,{
+            "path" : "pages/daily/daily",
+            "style" : {
+				"navigationBarTitleText": "每日一测",
+				//页面触底距离
+				"onReachBottomDistance":100
+			}
+        }
+        ,{
+            "path" : "pages/daily/dailyInfo",
+            "style" : {
+				"navigationBarTitleText": "每日一测"
+			}
+        }
+        ,{
+            "path" : "pages/project/project",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/project/detailInfo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/course/course",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/career/career",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "百里半",
+		"navigationBarBackgroundColor": "#12c494"
+	},
+	"tabBar":{
+		"color":"#808080",
+		"selectedColor":"#12c494",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home-active.png"
+			},
+			{
+				"text":"资源分类",
+				"pagePath":"pages/sort/sort",
+				"iconPath":"static/icon/sort.png",
+				"selectedIconPath":"static/icon/sort-active.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/user/user",
+				"iconPath":"static/icon/user.png",
+				"selectedIconPath":"static/icon/user-active.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,1 @@
+<view><block wx:if="{{falg}}"><view>暂无</view></block></view>

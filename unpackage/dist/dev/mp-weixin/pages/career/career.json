@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "qs-tabs": "/components/QS-tabs/QS-tabs",
+    "career-info": "/components/sort/careerInfo",
+    "career-stage": "/components/sort/careerStage"
+  }
+}

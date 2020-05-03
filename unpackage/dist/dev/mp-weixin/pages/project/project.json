@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "qs-tabs": "/components/QS-tabs/QS-tabs",
+    "projrct-info": "/components/project/projrctInfo",
+    "project-detail": "/components/project/projectDetail",
+    "project-video": "/components/project/projectVideo"
+  }
+}

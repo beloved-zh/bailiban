@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "百里半",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "project": "/components/sort/project",
+    "course": "/components/sort/course",
+    "qs-tabs": "/components/QS-tabs/QS-tabs",
+    "career": "/components/sort/career"
+  }
+}

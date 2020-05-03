@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "个人主页",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "daily": "/components/daily/daily",
+    "vocation": "/components/vocation/vocation",
+    "project": "/components/project/project",
+    "course": "/components/course/course",
+    "exam": "/components/exam/exam",
+    "qs-tabs": "/components/QS-tabs/QS-tabs"
+  }
+}

@@ -1,0 +1,85 @@
+
+view.data-v-c807e2aa,
+scroll-view.data-v-c807e2aa {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.QS-tabs.data-v-c807e2aa {
+	width: 100%;
+	-webkit-transition-property: background-color, color;
+	transition-property: background-color, color;
+}
+.QS-tabs.data-v-c807e2aa::-webkit-scrollbar {
+	display: none;
+	width: 0 !important;
+	height: 0 !important;
+	-webkit-appearance: none;
+	background: transparent;
+}
+.QS-tabs-scroll.data-v-c807e2aa {
+	width: 100%;
+	white-space: nowrap;
+	position: relative;
+}
+.QS-tabs-scroll-box.data-v-c807e2aa {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	white-space: nowrap !important;
+	display: block !important;
+}
+.QS-tabs-scroll-item.data-v-c807e2aa {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	-webkit-transition-property: background-color, color, font-weight;
+	transition-property: background-color, color, font-weight;
+}
+.content.data-v-c807e2aa {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.boxStyle.data-v-c807e2aa {
+	pointer-events: none;
+	position: absolute;
+	-webkit-transition-property: all;
+	transition-property: all;
+}
+.boxStyle2.data-v-c807e2aa {
+	pointer-events: none;
+	position: absolute;
+	bottom: 0;
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transform: translateY(-100%);
+	        transform: translateY(-100%);
+}
+.itemBackgroundBox.data-v-c807e2aa {
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	-webkit-transition-property: left, background-color;
+	transition-property: left, background-color;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.itemBackground.data-v-c807e2aa {
+	height: 100%;
+	width: 100%;
+	-webkit-transition-property: all;
+	transition-property: all;
+}
+

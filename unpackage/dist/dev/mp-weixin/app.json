@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sort/sort",
+    "pages/user/user",
+    "pages/login/login",
+    "pages/homework/homework",
+    "pages/homework/homeworkItem",
+    "pages/daily/daily",
+    "pages/daily/dailyInfo",
+    "pages/project/project",
+    "pages/project/detailInfo",
+    "pages/course/course",
+    "pages/career/career"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "百里半",
+    "navigationBarBackgroundColor": "#12c494"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#12c494",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png"
+      },
+      {
+        "text": "资源分类",
+        "pagePath": "pages/sort/sort",
+        "iconPath": "static/icon/sort.png",
+        "selectedIconPath": "static/icon/sort-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icon/user.png",
+        "selectedIconPath": "static/icon/user-active.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

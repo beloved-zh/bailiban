@@ -1,0 +1,1 @@
+<view class="page"><block wx:for="{{course}}" wx:for-item="item" wx:for-index="index" wx:key="id"><view data-event-opts="{{[['tap',[['goCoures',['$0'],[[['course','id',item.id,'id']]]]]]]}}" class="row" bindtap="__e"><view class="left" style="{{(colors[index])}}">{{item.courseName}}</view><view class="right">{{item.courseName}}</view></view></block></view>

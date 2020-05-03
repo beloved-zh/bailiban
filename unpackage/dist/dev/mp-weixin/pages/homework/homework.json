@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的作业",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control"
+  }
+}
